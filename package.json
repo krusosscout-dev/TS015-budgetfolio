@@ -1,0 +1,8 @@
+{
+  "name": "budgetfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BudgetFolio — สมุดงบประมาณส่วนตัวของครู",
+  "engines": { "node": ">=18" }
+}
