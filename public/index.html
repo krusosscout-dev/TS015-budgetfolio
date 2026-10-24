@@ -78,9 +78,8 @@ button{cursor:pointer}
 html:has(body.on-landing),body.on-landing{overflow:hidden}
 .landing{position:fixed;inset:0;overflow:hidden;display:grid;place-items:center;padding-top:max(16px,env(safe-area-inset-top,0px))!important;padding-bottom:max(16px,env(safe-area-inset-bottom,0px))!important;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px}
-.landing{background:var(--lb1) url(/login-bg.webp) center/cover no-repeat}
-.landing::after{content:"";position:absolute;inset:0;z-index:0;background:var(--land-ov);pointer-events:none}
-.landing::before{display:none;content:"";position:absolute;inset:-20%;z-index:0;
+.landing{background:linear-gradient(135deg,var(--lb1),var(--lb2) 50%,var(--lb4))}
+.landing::before{content:"";position:absolute;inset:-20%;z-index:0;
   background:radial-gradient(45% 50% at 15% 20%,var(--lb1),transparent 70%),radial-gradient(40% 45% at 85% 15%,var(--lb2),transparent 70%),
   radial-gradient(45% 50% at 80% 85%,var(--lb3),transparent 70%),radial-gradient(40% 45% at 20% 90%,var(--lb4),transparent 70%);
   animation:drift 18s ease-in-out infinite alternate}
