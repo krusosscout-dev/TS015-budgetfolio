@@ -767,7 +767,7 @@ function renderLanding(){
     <main class="login">
       <div class="logo">฿</div>
       <h1>BudgetFolio</h1>
-      <p class="sub">ระบบติดตามงบประมาณส่วนตัวของ<span style="white-space:nowrap">ครูซอสสอนสังคม</span></p>
+      <p class="sub">ระบบติดตามงบประมาณของ<span style="white-space:nowrap">ครูซอสสอนสังคม</span></p>
       <span class="fy">ปีงบประมาณ ${fyOf(today())}</span>
       ${TOKEN?`<button class="btn-google" data-act="enter">${I('check')}เข้าสู่ระบบ</button><div class="hint">เครื่องนี้จำรหัสผ่านไว้แล้ว</div>`
         :`<form id="login-form" class="login-form" autocomplete="on"><input class="inp" type="password" id="pw" name="password" placeholder="รหัสผ่าน" autocomplete="current-password" aria-label="รหัสผ่าน" required><button class="btn-google" type="submit" id="login-btn">เข้าสู่ระบบ</button></form><div class="hint" id="login-msg">ใส่รหัสผ่านครั้งเดียว เครื่องนี้จะจำไว้</div>`}
